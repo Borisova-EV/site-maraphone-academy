@@ -1,0 +1,346 @@
+body {
+    padding: 0px;
+    margin: auto;
+    width: 1440px;
+    height: 100%;
+    color:#2E2F22;
+}
+.header-container {
+    display: flex;
+    width: 1440px;
+}
+nav {
+    position: absolute;
+    display: flex;
+    padding-left: 120px;
+    padding-top: 4px;
+    width: 1440px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #2E2F22;
+}
+a:link {
+    color: #2E2F22;
+}
+ul {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.site-navigation {
+    margin-left: 460px;
+    margin-right: 121px;
+    
+}
+.site-navigation-item {
+    margin-right: 83px;
+    font: 18px/25px "Open Sans";
+}
+.visually-hidden {
+    display: none;
+}
+main {
+    margin: 85px 120px 81px;
+    width: 1440px;
+    
+}
+
+
+h2 {
+    font: bold 36px/55px "Spectral SC";
+    padding: 0px;
+    margin: 0px;
+    width: 220px;
+   
+
+}
+section {
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+.article {
+    width: 1200px;
+    
+    
+}
+.tegs-form {
+    align-self: flex-end;
+    position: absolute;
+    margin-left: 776px;
+   
+   
+
+}
+select {
+    width: 203px;
+    background: #D7D1C9;
+    border-radius: 10px;
+    vertical-align: center; 
+    padding-left: 20px;
+    font: 16px/22px "Open Sans";
+    border-color: transparent;  
+}
+h3 {
+    font-family: "Spectral SC" serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 27px;
+}
+.article-item {
+    width: 387px;
+}
+.article-item:last-child {
+    margin-left: 20px;
+    width: 590px;
+    margin-top: 62px;
+}
+.article-item:nth-child(4) {
+    margin-top: 62px;
+}
+
+p {
+    margin-top: 8px;
+    font: 16px/26px "Open Sans";
+    padding: 0px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+footer p {
+    color: rgba(46, 47, 34, 0.7);
+}
+
+.container {
+    display: flex;
+    position: relative;
+  
+   
+    
+}
+.content {
+    position: absolute;
+    width: 429px;
+    top: 298px;
+    left: 82px;
+    color: #FFFFFF;
+    
+    
+
+}
+.content h3 {
+    font:  bold 20px/30px "Spectral SC";
+}
+.content p {
+    font: normal 18px/28px "Open Sans"
+    
+}
+.content footer {
+    margin-top: 12px;
+    
+}
+    
+
+.content footer p {
+    color: rgba(255, 255, 255, 0.7);
+  
+}
+ button {
+    align-self: center;
+    padding: 12px 57px;
+    font: 16px/22px "Open Sans";
+    color: #202117;
+    border: 1px solid #202117;
+    border-radius: 10px;
+    margin-top: 116px;
+
+}
+.info {
+    width: 1200px;
+    height: 797.15px;
+    margin-top: 85px;
+    
+
+}
+.info h2 {
+    align-self: center;
+    text-align: center;
+    
+}
+.info .container {
+    justify-content: space-between;
+}
+.info-text {
+    margin-left: 40px;
+
+}
+p.italic {
+    font: italic 30px/40px "Open Sans";
+    margin-top: 98px;
+    
+}
+.portfolio {
+    width: 1200px;
+    height: 779px;
+    margin-top: 84.85px;
+}
+.portfolio h2 {
+    align-self: center;
+    text-align: center;
+
+}
+.portfolio-list {
+    margin-top: 49px;
+}
+.portfolio-item {
+    width: 387px;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+    
+}
+.portfolio-item:first-child {
+   background-image: url("Mask\ Group\ \(8\).jpg");
+}
+.portfolio-item:nth-child(2) {
+    background-image: url("Mask\ Group\ \(7\).jpg");
+    
+}
+.portfolio-item:last-child {
+    background-image: url("Mask\ Group\ \(6\).jpg");
+}
+.portfolio-item h3 {
+    font:  bold 20px/30px "Spectral SC";
+
+}
+.portfolio-item:nth-child(2) h3{
+    color: #FFFFFF;
+}
+.portfolio-item h4 {
+    font: bold 18px/28px "Spectral SC";
+}
+.portfolio-item:nth-child(2) h4{
+    color: #FFFFFF;
+}
+.portfolio-item:nth-child(2) p {
+    color: #FFFFFF;
+}
+.message-form {
+    width: 1200px;
+    margin-top: 85px;
+    box-sizing: border-box;
+}
+.message-form h2 {
+    align-self: center;
+    text-align: center;
+    width: 290px;
+    
+}
+.message-form form {
+    width: 996px;
+    height: 637px;
+    background-image: url("Mask\ Group\ \(9\).jpg");
+    margin: 49px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 53px 81px;
+    
+
+}
+label {
+    font: bold 18px/28px "Spectral SC"; 
+    color: #2E2F22;
+   
+    
+    
+}
+input {
+    box-sizing: border-box;
+    width: 407px;
+    height: 63px;
+    border: 1px solid #202117;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    font: 16px/22px "Open Sans";
+    color: #202117;
+    margin-top: 12px;
+    box-sizing: border-box;
+    
+}
+.contacts,
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.message {
+    margin-top: 20px;
+}
+textarea {
+    width: 837px;
+    height: 293px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    font: 16px/22px "Open Sans";
+    color: #202117;
+    opacity: 0.7;
+    box-sizing: border-box;
+}
+.message-form button {
+    background: transparent;
+    margin: 20px auto;
+
+}
+.main-footer {
+    margin-top:81px;
+    background-color:#D7D1C9;
+    height: 181px;
+    width: 1440px;
+   
+}
+li.social-item {
+    font: 18px/25px "Open Sans";
+    margin-right: 120px;
+
+    
+}
+ul.social-list {
+    margin-left: 405px;
+    margin-top: 65px;
+}
+textarea.warning {
+    color: red;
+    border-color: red;
+} 
+button:disabled {
+    opacity: 0.25;
+}
+ .one-article {
+   margin: auto; 
+ }
+

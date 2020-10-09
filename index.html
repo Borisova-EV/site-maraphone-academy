@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+        <title>Главная страница личного блога</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="header-container">
+            <img src="Mask Group(0).jpg" width="1440" height="581" alt="Моё фото">
+            <nav class="main-nav">
+                <a href="index.html">
+                    <img class="logo" src="Ресурс 5 1.png" width="130" height="82.51" alt="Логотип личного блога">
+                </a>
+                <ul class="site-navigation">
+                    <li class="site-navigation-item">
+                        <a href="#article">Статьи</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#info">Обо мне</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#portfolio">Портфолио</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#message-form">Написать мне</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+        <main>
+            <h1 class="visually-hidden">Главная страница личного блога</h1>
+            <section class="article" id="article">
+                <h2>Все статьи</h2>
+                <form action="url" method="GET" class="tegs-form" >
+                    <select name="tegs" size="1">
+                        <option  hidden disabled selected>Выбрать тему</option>
+                        <option value="city">Город</option>
+                        <option value="books">Книги</option>
+                        <option value="travel">Путешествия</option>
+                        <option value="recipes">Рецепты</option>
+                        <option value="photo">Фотографии</option>
+                        <option value="all">Все статьи</option>
+                    </select>
+                </form>
+                <ul class="article-list">
+                    <li class="article-item" data-category="travel">
+                        <a href="index(2).html">
+                            <img src="Mask Group.jpg" width="387" height="268" alt="Перекресток на улице Берлина">
+                            <h3>Путешествие в Берлин в августе </h3>
+                            <p>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+                            <footer>
+                                <p>Теги: путешествия</p>
+                                <p><time datetime="2020-09-29">29.09.2020</time></p>
+                            </footer>
+                        </a>
+                    </li>
+                    <li class="article-item" data-category="city">
+                        <a href="index(2).html">
+                            <img src="Mask Group (1).jpg" width="387" height="268" alt="Колдбрю">
+                            <h3>Где выпить колдбрю в Москве</h3>
+                            <p>Собрала для вас список любимых кофеен, где подают лучший летний напиток.</p>
+                            <footer>
+                                <p>Теги: город</p>
+                                <p><time datetime="2020-07-24">24.07.2020</time></p>
+                            </footer>
+                        </a>
+                    </li>
+                    <li class="article-item"  data-category="books">
+                        <a href="index(2).html">
+                            <img src="Mask Group (2).jpg" width="387" height="268" alt="Стопка книг">
+                            <h3>Прочитано: книжные рекомендации </h3>
+                            <p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+                            <footer>
+                                <p>Теги: книги</p>
+                                <p><time datetime="2020-07-15">15.07.2020</time></p>
+                            </footer>
+                        </a>
+                    </li>
+                    <li class="article-item" data-category="photo">
+                        <a href="index(2).html">
+                            <div class="container">
+                                <img src="Mask Group (3).jpg" width="590" height="552" alt="Фотогрфи куста с цветами">
+                                <div class="content">
+                                    <h3>Снимки на плёнку</h3>
+                                    <p>Поделилась с вами весенними фотографиями, и секретами удачных снимков.</p>
+                                    <footer>
+                                       <p>Теги: фотографии</p>
+                                       <p><time datetime="2020-06-29">29.06.2020</time></p>
+                                    </footer>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="article-item" data-category="recipes">
+                        <a href="index(2).html">
+                            <div class="container">
+                                <img src="Mask Group (4).jpg" width="590" height="552" alt="Чизкейк, украшенный малной и смородиной">
+                                <div class="content">
+                                        <h3>Домашний чизкейк </h3>
+                                        <p>Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!</p>
+                                        <footer>
+                                           <p>Теги: рецепты</p>
+                                           <p><time datetime="2020-06-24">24.06.2020</time></p>
+                                        </footer>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <button type="button">Показать ещё</button>
+            </section>
+            <section class="info" id="info">
+                <h2>Обо мне</h2>
+                <div class="container">
+                    <img src="Mask Group (5).jpg" width="590" height="693" alt="Мой портрет">
+                    <div class="info-text">
+                        <p>Всем привет! Меня зовут Аня, и это мой личный блог. Здесь ты найдёшь рассказы о моих путешествиях, снимки на плёнку, рецепты, обзоры на книги. В общем, тексты о том, что мне инетресно.</p>
+                        <p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё портфолио. Ниже размещены несколько моих лучших рабочих текстов. Буду рада новым сотрудничествам!</p>
+                        <p>Если вы хотите написать мне — это можно сделать в соцсетях или через форму. Всегда приятно услышать обратную связь от читателей и познакомиться поближе.</p>
+                        <p>Приятного чтения!</p>
+                        <p class="italic">Я верю, что каждый раз пробуя новое, выходящее за зону моего комфорта, я действительно узнаю настояющую себя. </p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <h2>Портфолио</h2>
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
+                        <a href="#">
+                            <h3>Блог HTML Academy</h3>
+                            <h4>«Как учиться продуктивно»</h4>
+                            <p>Про основные методы обучения, которые помогут быстро и надолго запомнить информацию.</p>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a href="#">
+                            <h3>Журнал «LNK»</h3>
+                            <h4>«Зачем поцели нужны человеку? И какие они бывают»</h4>
+                            <p>Поцелуи — повсеместная ежедневная практика. Но зачем люди целуются? Какие смысли вкладывают в этот ритуал? И где корни этой практики?</p>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a href="#">
+                            <h3>Журнал «Т — Л»</h3>
+                            <h4>«Советы по эффективной удалённой работе»</h4>
+                            <p>Поделилась лайфхаками, которые помогают мне работать продуктивно из дома. </p>
+                        </a>
+                    </li>
+                </ul>
+                <button type="button">Показать ещё</button>
+            </section>
+            <section class="message-form" id="message-form">
+                <h2>Написать мне</h2>
+                <form action="" method="POST">
+                    <div class="contacts">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" name="name" id="name" required placeholder="Иван Иванов">
+                    </div>
+                    <div class="contacts">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="google@gmail.com">
+                    </div>
+                    <div class="message">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" cols="200"  minlength="10" placeholder="Напишите здесь ваше сообщение."></textarea>
+                    </div>
+                    <button class="button-submit" type="submit">ОТПРАВИТЬ</button>
+                </form>
+            </section>
+        </main>
+        <footer class="main-footer">
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="#">ВК</a>
+                </li>
+                <li class="social-item">
+                    <a href="#">Телеграм</a>
+                </li>
+                <li class="social-item">
+                    <a href="#">Инстаграм</a>
+                </li>
+                <li class="social-item">
+                    <a href="#">Твиттер</a>
+                </li>
+            </ul>
+        </footer>
+        <script src="charCounter.js"></script>
+        <script src="filter.js"></script>
+    </body>
+</html>
